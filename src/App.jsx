@@ -1182,7 +1182,6 @@ function GuardTab({ soldiers, guard, onSetDate, onAddPost, onRemovePost, onAddSl
         <div style={{ background: C.panel, border: `1px solid ${C.border}`, borderRadius: 10, padding: 16 }}>
           <div style={{ fontSize: 12, fontWeight: 700, color: C.boneMuted, marginBottom: 10 }}>משבצות שעות</div>
           <div style={{ display: 'flex', gap: 8, marginBottom: 10 }}>
-            <button onClick={() => onGenerateSlots(1)} style={{ ...btnGhost(), fontSize: 12 }}>יצירה כל שעה</button>
             <button onClick={() => onGenerateSlots(2)} style={{ ...btnGhost(), fontSize: 12 }}>יצירה כל  שעתיים</button>
             <button onClick={() => onGenerateSlots(3)} style={{ ...btnGhost(), fontSize: 12 }}>יצירה כל 3 שעות</button>
             <button onClick={() => onGenerateSlots(4)} style={{ ...btnGhost(), fontSize: 12 }}>יצירה כל 4 שעות</button>
